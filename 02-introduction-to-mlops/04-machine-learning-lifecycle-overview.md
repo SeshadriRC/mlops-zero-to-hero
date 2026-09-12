@@ -111,6 +111,7 @@ Version control for data, code, and models.
 
 # Udemy summary
 
+<img width="4000" height="1800" alt="IMG_20260912_121553" src="https://github.com/user-attachments/assets/aa910254-3bb4-4448-979b-38c121055aec" />
 
 
 
