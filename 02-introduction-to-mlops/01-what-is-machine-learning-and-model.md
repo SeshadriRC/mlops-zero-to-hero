@@ -67,3 +67,98 @@ Output: Species = Versicolor
 
 
 The model is simply applying what it learned earlier.
+
+---
+
+# Udemy summarize
+
+### Machine Learning — Simple Summary
+
+**Machine Learning (ML)** is a process where we train a computer with a large amount of **data** so it can **identify patterns and predict an output**.
+
+### Example: Flower Prediction 🌸
+
+Inputs:
+
+* Petal length
+* Petal width
+* Sepal length
+* Sepal width
+
+Output:
+
+* Type of flower
+
+### Traditional Programming
+
+We could write many `if-else` conditions:
+
+```text
+If petal length = 4 and sepal width = 6
+    → Rose
+
+If petal width = 6 and sepal length = 2
+    → Jasmine
+```
+
+The problem is that there can be **many possible combinations**, so maintaining endless `if-else` conditions becomes difficult.
+
+### Machine Learning Approach
+
+Instead:
+
+```text
+Large Dataset
+     ↓
+ML Algorithm
+     ↓
+Training
+     ↓
+Pattern Identification
+     ↓
+Mathematical Function
+     ↓
+Model
+     ↓
+Prediction
+```
+
+During **training**, the algorithm identifies patterns in the data and builds a **mathematical function**.
+
+That mathematical function is called the **ML model**.
+
+For example:
+
+```text
+Input:
+Petal length = 3
+Petal width  = 2
+Sepal length = 3
+Sepal width  = 3
+
+        ↓
+
+Trained Model
+
+        ↓
+
+Predicted flower type
+```
+
+### Important terms
+
+| Term           | Meaning                                     |
+| -------------- | ------------------------------------------- |
+| **Dataset**    | Collection of data used for training        |
+| **Algorithm**  | Method used to learn patterns from data     |
+| **Training**   | Process of learning from the dataset        |
+| **Model**      | Mathematical function created from training |
+| **Prediction** | Output produced by the trained model        |
+
+**Key point:**
+
+> **Model ≠ dataset and Model ≠ algorithm. The model is the mathematical function produced after training an algorithm using data, and it is used for prediction.**
+
+The quality of the **dataset and algorithm** affects the quality of the model's predictions.
+
+---
