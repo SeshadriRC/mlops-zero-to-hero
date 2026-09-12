@@ -110,3 +110,143 @@ Backend microservices
 MLOps pipelines
 
 This is what gets deployed.
+
+---
+
+# Udemy summarize
+
+### How Data Scientists Create an ML Model — Summary
+
+The typical process can be understood in **8 steps**:
+
+```text
+Dataset
+   ↓
+Split Dataset
+   ↓
+Choose Algorithm
+   ↓
+Train Model
+   ↓
+Test Model
+   ↓
+Retrain / Improve if needed
+   ↓
+Package Model
+   ↓
+Deploy / Consume through API
+```
+
+### 1. Collect Dataset
+
+The dataset contains **input features + actual output**.
+
+Example:
+
+| Petal Length | Petal Width | Sepal Length | Sepal Width | Flower  |
+| -----------: | ----------: | -----------: | ----------: | ------- |
+|            4 |           3 |            5 |           6 | Rose    |
+|            5 |           4 |            2 |           3 | Jasmine |
+
+---
+
+### 2. Split the Dataset
+
+Typically:
+
+* **80% → Training data**
+* **20% → Testing data**
+
+The 80% is used to train the algorithm, while the remaining 20% is kept for testing the trained model.
+
+---
+
+### 3. Choose an Algorithm
+
+Examples mentioned:
+
+* Logistic Regression
+* Decision Tree
+* K-Nearest Neighbor (KNN)
+
+The **Data Scientist** decides which algorithm is appropriate.
+
+---
+
+### 4. Train the Model
+
+The algorithm learns from the **80% training data**.
+
+It identifies patterns between the input features and the actual output.
+
+```text
+Training Data
+     ↓
+Algorithm
+     ↓
+Pattern Identification
+     ↓
+Mathematical Function
+     ↓
+Model
+```
+
+The **model is the output of the training process**.
+
+---
+
+### 5. Test the Model
+
+The model is tested using the **20% data that was not used during training**.
+
+The purpose is to check whether the model produces accurate predictions.
+
+---
+
+### 6. Improve / Retrain
+
+If the model gives poor results, the Data Scientist may:
+
+* Improve/change the dataset
+* Choose a different algorithm
+* Retrain the model
+
+This process continues until acceptable performance is achieved.
+
+---
+
+### 7. Package the Model
+
+Once the model is satisfactory, it needs to be saved/package for use.
+
+Common formats mentioned:
+
+* `.pkl`
+* **Joblib**
+* **ONNX**
+
+---
+
+### 8. Deploy / Consume the Model
+
+Software developers or ML engineers can create an **API/application around the model**.
+
+```text
+User/Application
+       ↓
+      API
+       ↓
+    ML Model
+       ↓
+   Prediction
+```
+
+The model can then be used by a **website, mobile application, or other software application**.
+
+### 🎯 Interview-ready answer
+
+> **“A typical ML model creation process starts with collecting a dataset, splitting it into training and testing data, selecting an algorithm, training the algorithm, testing the resulting model, retraining if the performance is poor, packaging the final model, and finally exposing it through an API or application for consumption.”**
+
+**For MLOps:** Your main interest comes **after/beyond the Data Scientist's model-building work**—automating and managing the training, packaging, deployment, monitoring, and retraining lifecycle.
+
+---
