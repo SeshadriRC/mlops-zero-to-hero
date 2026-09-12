@@ -67,6 +67,9 @@ MLOps takes proven DevOps ideas and applies them to ML systems.
 
 # Udemy summarize
 
+<img width="4000" height="1800" alt="IMG_20260912_073758" src="https://github.com/user-attachments/assets/cca60c88-41dd-4191-8708-6754f797d5d6" />
+
+
 ### MLOps — Simple Summary
 
 **MLOps = Machine Learning Operations**
