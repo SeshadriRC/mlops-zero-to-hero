@@ -160,10 +160,17 @@ Training → Validation → Deployment → Monitoring
 * Payment service → **DevOps**
 * Recommendation engine → **MLOps**
 
+
+<img width="4000" height="1800" alt="IMG_20260912_073827" src="https://github.com/user-attachments/assets/fc1254e2-c6e2-46db-80d3-d03b8c823194" />
+
+
 **PayPal:**
 
 * Login/UI/microservices → **DevOps**
 * Fraud detection model → **MLOps**
+
+<img width="4000" height="1800" alt="IMG_20260912_073848" src="https://github.com/user-attachments/assets/eaae2ff9-7060-443f-9cd8-4783c1d22462" />
+
 
 ### 🎯 Interview answer
 
