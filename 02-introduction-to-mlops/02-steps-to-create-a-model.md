@@ -117,6 +117,9 @@ This is what gets deployed.
 
 ### How Data Scientists Create an ML Model — Summary
 
+<img width="4000" height="1800" alt="IMG_20260912_065323" src="https://github.com/user-attachments/assets/c91b5fa4-7c28-4092-9627-381757b78081" />
+
+
 The typical process can be understood in **8 steps**:
 
 ```text
