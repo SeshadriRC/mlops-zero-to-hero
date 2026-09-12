@@ -62,3 +62,111 @@ MLOps takes proven DevOps ideas and applies them to ML systems.
 | Monitoring services | Monitoring model performance |
 | Rollbacks | Model version rollback |
 | Automation | End-to-end ML lifecycle automation |
+
+---
+
+# Udemy summarize
+
+### MLOps — Simple Summary
+
+**MLOps = Machine Learning Operations**
+
+In simple words:
+
+> **MLOps is DevOps for the Machine Learning lifecycle.**
+
+It applies DevOps practices like **CI/CD, automation, Infrastructure as Code, Kubernetes, monitoring, and deployment** to ML models.
+
+### DevOps vs MLOps
+
+| DevOps                              | MLOps                                |
+| ----------------------------------- | ------------------------------------ |
+| Traditional applications            | Machine learning models              |
+| Source code → build → test → deploy | Data → train → test → model → deploy |
+| CI/CD for applications              | CI/CD for ML models                  |
+| Application monitoring              | Model + application monitoring       |
+| Infrastructure automation           | ML infrastructure automation         |
+
+### Without MLOps
+
+For an ML recommendation model:
+
+```text
+Data Collection
+      ↓
+Data Preparation
+      ↓
+Model Development
+      ↓
+Model Evaluation
+      ↓
+API Development
+      ↓
+Containerization
+      ↓
+Kubernetes Deployment
+```
+
+If these activities are mostly manual, every new model iteration requires repeating many steps.
+
+### With MLOps
+
+These activities are automated through pipelines:
+
+```text
+New Data / Code / Model Change
+             ↓
+        MLOps Pipeline
+             ↓
+    Train → Test → Validate
+             ↓
+       Package Model
+             ↓
+       Deploy Model
+             ↓
+        Monitor Model
+             ↓
+     Retrain when required
+```
+
+### Can DevOps and MLOps coexist?
+
+**Yes. MLOps does NOT replace DevOps.**
+
+For example, an organization may have:
+
+```text
+Traditional Application
+        ↓
+     DevOps
+        ↓
+CI/CD → Kubernetes → Monitoring
+
+
+ML Recommendation/Fraud Model
+        ↓
+      MLOps
+        ↓
+Training → Validation → Deployment → Monitoring
+```
+
+### Real-world example
+
+**Netflix:**
+
+* Payment service → **DevOps**
+* Recommendation engine → **MLOps**
+
+**PayPal:**
+
+* Login/UI/microservices → **DevOps**
+* Fraud detection model → **MLOps**
+
+### 🎯 Interview answer
+
+> **“MLOps stands for Machine Learning Operations. It is inspired by DevOps and applies automation, CI/CD, infrastructure as code, Kubernetes, monitoring and other DevOps practices to the machine learning lifecycle. DevOps manages traditional application delivery, while MLOps manages the lifecycle of ML models, including training, validation, deployment, monitoring and retraining.”**
+
+
+---
+
+
