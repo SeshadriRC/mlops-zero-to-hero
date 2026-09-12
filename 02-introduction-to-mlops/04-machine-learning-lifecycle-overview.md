@@ -111,7 +111,7 @@ Version control for data, code, and models.
 
 # Udemy summary
 
-<img width="4000" height="1800" alt="IMG_20260912_124155" src="https://github.com/user-attachments/assets/afff0ae5-9b3a-4659-9e41-817d6d9622be" />
+
 
 
 ## Machine Learning Lifecycle — Simple Summary
