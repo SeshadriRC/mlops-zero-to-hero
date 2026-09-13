@@ -172,3 +172,7 @@ target 2 means virginica
 ```
 
 ## How data scientist write a script to train the algorithm on a dataset 
+
+```bash
+python3 -m venv -venv
+```
