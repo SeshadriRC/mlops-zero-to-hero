@@ -302,6 +302,10 @@ python --version
 py -3.12 -m pip install -r requirements.txt
 ```
 
+- Train the model
+
 <img width="792" height="136" alt="image" src="https://github.com/user-attachments/assets/df7ef4e0-329c-4419-8980-e85f66384642" />
+
+- Test the model
 
 <img width="882" height="357" alt="image" src="https://github.com/user-attachments/assets/eaccb6d8-87b9-4e3a-bf9e-360bc452bc57" />
