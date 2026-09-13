@@ -144,3 +144,31 @@ It is NOT deployed
 It is NOT automated
 
 The job is almost done.
+
+
+---
+
+## How the data is represented in a dataset
+
+```bash
+python -m pip install scikit-learn
+python -m pip install pandas
+
+from sklearn.datasets import load_iris
+import pandas as pd
+iris=load_iris()
+df = pd.DataFrame(iris.data, columns=iris.feature_names)
+df["target"] = iris.target
+print(df.head())
+print("\nTarget Names:", iris.target_names)
+```
+
+<img width="1015" height="367" alt="image" src="https://github.com/user-attachments/assets/c1647154-305f-41ee-8fc3-1ba6d89be5f0" />
+
+```bash
+target 0 means setosa
+target 1 means versicolor
+target 2 means virginica
+```
+
+## How data scientist write a script to train the algorithm on a dataset 
