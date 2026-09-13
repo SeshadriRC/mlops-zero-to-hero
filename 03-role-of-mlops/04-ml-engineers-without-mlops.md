@@ -1,3 +1,7 @@
+Just see the below, we have manually ran `py -3.12 app.py` and run `curl`
+
+[repo](https://github.com/SeshadriRC/hello-world-mlops/blob/main/README.md#quick-start-local)
+
 # Role of an ML Engineer in a Project
 
 Once a Data Scientist builds a working model, the question becomes:
