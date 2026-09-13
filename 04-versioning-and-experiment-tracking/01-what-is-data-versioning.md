@@ -1,4 +1,4 @@
-[repo](https://github.com/iam-veeramalla/Wine-Prediction-Model)
+[repo](https://github.com/SeshadriRC/Wine-Prediction-Model)
 
 # Data Versioning – Why Git Isn’t Enough?
 
