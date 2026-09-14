@@ -7,7 +7,8 @@ https://github.com/iam-veeramalla/Wine-Prediction-Model
 ## commands used
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # linux
+source .venv/Scripts/activate # git bash
 python3 -m pip install dvc dvc_s3
 dvc init
 dvc add data/winse_sample.csv
