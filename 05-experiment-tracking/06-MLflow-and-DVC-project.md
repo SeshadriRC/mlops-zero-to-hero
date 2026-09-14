@@ -26,3 +26,21 @@ mlflow.set_experiment("my-first-experiment-mlflow")
 
 <img width="1917" height="492" alt="image" src="https://github.com/user-attachments/assets/e26596dd-ee34-4e42-a5e0-d1b59572c10a" />
 
+**How datascientist will do experiment tracking**
+
+- clone the wine prediction repo
+
+<img width="1210" height="183" alt="image" src="https://github.com/user-attachments/assets/9ffe9d13-36f8-45b3-948e-83df4a040204" />
+
+- create a python virtual env and install dvc
+
+```bash
+py -3.12 -m venv .venv
+source .venv/Scripts/activate
+py -3.12 -m pip install dvc
+py -3.12 -m pip install dvc_s3
+```
+
+- you can run `dvc pull` if in case you need to pull the dataset
+
+<img width="1917" height="477" alt="image" src="https://github.com/user-attachments/assets/06b70553-c5dc-4964-810a-222adcb885cc" />
