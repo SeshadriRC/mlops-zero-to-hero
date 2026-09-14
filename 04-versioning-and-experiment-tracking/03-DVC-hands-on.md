@@ -66,3 +66,10 @@ py -3.12 -m pip install dvc_s3
 - i downloaded and verified, its matching.
 - Now again modify and check the checksum
 
+<img width="1917" height="556" alt="image" src="https://github.com/user-attachments/assets/193a706b-7e7d-4b5a-b709-5263a8da2efd" />
+
+- checksum and git is matching
+
+<img width="1917" height="536" alt="image" src="https://github.com/user-attachments/assets/4612a231-061e-4ec3-af6d-e30878a33220" />
+
+<img width="1062" height="227" alt="image" src="https://github.com/user-attachments/assets/543d348c-7a8f-40a6-984a-90ee30be9129" />
