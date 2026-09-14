@@ -58,3 +58,20 @@ py -3.12 train.py
 
 <img width="1916" height="292" alt="image" src="https://github.com/user-attachments/assets/a0ab2b12-eee2-4c3e-8958-98d7dc1aa470" />
 
+<img width="1917" height="685" alt="image" src="https://github.com/user-attachments/assets/523551b7-7fbc-47a4-badf-04be87115a1e" />
+
+<img width="1917" height="755" alt="image" src="https://github.com/user-attachments/assets/43d2e990-6bc8-485e-b813-e5bda476bc8c" />
+
+<img width="1917" height="826" alt="image" src="https://github.com/user-attachments/assets/3be56b57-7428-4467-bec8-1e75524a0d23" />
+
+- Now change the `--test-size as 0.9 before it was 0.2` and `default run as 3` and run again.
+
+- since experiment already exist, so it created only new run
+
+<img width="1816" height="342" alt="image" src="https://github.com/user-attachments/assets/0c130280-2283-450c-893c-d4f3a5e182fb" />
+
+- we can see value is changed
+
+<img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/40615470-4a20-469c-a469-cf6b33ce17ac" />
+
+<img width="1903" height="682" alt="image" src="https://github.com/user-attachments/assets/3af4cce0-9fe1-4002-8396-474133e1e678" />
