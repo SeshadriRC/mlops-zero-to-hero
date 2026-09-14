@@ -32,3 +32,6 @@ dvc push
 
 <img width="1902" height="980" alt="image" src="https://github.com/user-attachments/assets/12f8a29d-a55a-49be-a219-6ec7d15f1415" />
 
+- we can see that checksum is changed.
+
+<img width="1895" height="947" alt="image" src="https://github.com/user-attachments/assets/774e2d0d-b8e6-4b30-99e8-030018939b89" />
