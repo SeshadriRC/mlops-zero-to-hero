@@ -44,3 +44,17 @@ py -3.12 -m pip install dvc_s3
 - you can run `dvc pull` if in case you need to pull the dataset
 
 <img width="1917" height="477" alt="image" src="https://github.com/user-attachments/assets/06b70553-c5dc-4964-810a-222adcb885cc" />
+
+- There are no tracking information
+
+<img width="1917" height="887" alt="image" src="https://github.com/user-attachments/assets/fb73518d-13a7-4faf-81b8-85dd78e38ead" />
+
+- Now install python `requirements.txt` and run `train.py`
+
+```bash
+py -3.12 -m pip install -r requirements.txt
+py -3.12 train.py
+```
+
+<img width="1916" height="292" alt="image" src="https://github.com/user-attachments/assets/a0ab2b12-eee2-4c3e-8958-98d7dc1aa470" />
+
