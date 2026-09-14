@@ -1,6 +1,6 @@
 Please refer to the below documentation for this lecture.
 
-https://mlflow.org/docs/2.4.2/quickstart.html#install-mlflow
+https://mlflow.org/docs/2.4.2/quickstart.html#install-mlflow  -> I didn't followed the doc, please follow the below steps
 
 ```bash
 $ mkdir mlflow-basic-install
