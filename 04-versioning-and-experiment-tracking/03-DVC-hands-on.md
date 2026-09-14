@@ -22,6 +22,12 @@ dvc push
 #saved to s3 as bucketname/foldername/md5/version_count/checksumvalueasfilename
 ```
 
+- How multiple datascientist will get to know which dataset we need to use --> By looking into `.dvc/config` file and checking the checksum `data/wine_sample.csv.dvc`
+
+<img width="1917" height="760" alt="image" src="https://github.com/user-attachments/assets/7a2897de-8342-46cf-8fb2-60c4e738a426" />
+
+<img width="1917" height="757" alt="image" src="https://github.com/user-attachments/assets/420975c1-4519-46ad-91c1-ee8544f9aaf1" />
+
 ---
 # Practicals
 
