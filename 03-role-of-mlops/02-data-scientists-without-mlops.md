@@ -287,8 +287,9 @@ target 2 means virginica
 ## How data scientist write a script to train the algorithm on a dataset 
 
 ```bash
-python3 -m venv -venv
-source venv/Scripts/activate
+py -3.12 venv .venv
+source .venv/Scripts/activate
+py --version   -> it will show 3.12
 ```
 
 ```bash
