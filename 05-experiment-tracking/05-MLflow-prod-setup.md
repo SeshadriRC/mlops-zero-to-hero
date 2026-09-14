@@ -60,4 +60,6 @@ helm install mlflow community-charts/mlflow \
   --set backendStore.postgres.database=mlflow \
   --set backendStore.postgres.user=mlflow_user \
   --set backendStore.postgres.password=mlflow_password
+
+kubectl -n mlflow port-forward pod/mlflow-community-6d575f4f6b-28cxb 7004:5000 --address 0.0.0.0
 ```
