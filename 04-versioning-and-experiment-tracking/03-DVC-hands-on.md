@@ -21,3 +21,14 @@ dvc push
 
 #saved to s3 as bucketname/foldername/md5/version_count/checksumvalueasfilename
 ```
+
+---
+# Practicals
+
+<img width="1907" height="1031" alt="image" src="https://github.com/user-attachments/assets/dc911292-2a48-421e-8c3a-f6fa6da1b56d" />
+
+
+- Now make a simple change to .csv and again give `dvc add`
+
+<img width="1902" height="980" alt="image" src="https://github.com/user-attachments/assets/12f8a29d-a55a-49be-a219-6ec7d15f1415" />
+
