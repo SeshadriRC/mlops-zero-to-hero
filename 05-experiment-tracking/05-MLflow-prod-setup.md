@@ -38,3 +38,26 @@ create user mlflow_user with password 'mlflow_password';
 grant all privileges on database mlflow to mlflow_user;
 grant all privileges on schema public to mlflow_user;
 ```
+
+```bash
+psql -h database-1.c5k88omakd8d.ap-south-1.rds.amazonaws.com \
+     -p 5432 \
+     -U postgres \
+     -d mlflow
+
+GRANT USAGE, CREATE ON SCHEMA public TO mlflow_user;
+```
+
+```bash
+kubectl create ns mlflow
+
+helm install mlflow community-charts/mlflow \
+  --namespace mlflow \
+  --set backendStore.databaseMigration=true \
+  --set backendStore.postgres.enabled=true \
+  --set backendStore.postgres.host=database-1.c5k88omakd8d.ap-south-1.rds.amazonaws.com \
+  --set backendStore.postgres.port=5432 \
+  --set backendStore.postgres.database=mlflow \
+  --set backendStore.postgres.user=mlflow_user \
+  --set backendStore.postgres.password=mlflow_password
+```
