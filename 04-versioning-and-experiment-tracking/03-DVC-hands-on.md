@@ -35,3 +35,34 @@ dvc push
 - we can see that checksum is changed.
 
 <img width="1895" height="947" alt="image" src="https://github.com/user-attachments/assets/774e2d0d-b8e6-4b30-99e8-030018939b89" />
+
+- Push `wine_sample-my.csv` to the S3 and push `wine_sample-my.csv.dvc` to the git.
+
+- Create a S3 bucket in aws
+
+<img width="1912" height="593" alt="image" src="https://github.com/user-attachments/assets/0b28b5fb-c19a-410d-a8c7-14b4b60d5660" />
+
+```bash
+dvc remote add -d winremote s3://mlops-sesha-bucket
+```
+
+<img width="783" height="170" alt="image" src="https://github.com/user-attachments/assets/2dfe857a-9fcb-409b-b049-6bf4f07adebf" />
+
+- Aws creds need to be set before pushing the file
+
+```bash
+# Install dependency first, so that you can able to push to S3
+py -3.12 -m pip install dvc_s3
+```
+
+- `dvc push` to the S3
+
+<img width="1627" height="315" alt="image" src="https://github.com/user-attachments/assets/513a6f45-58bb-4a28-95dd-4b47eafa2242" />
+
+- `checksum` will be matching, you can also download and verify
+
+<img width="1912" height="792" alt="image" src="https://github.com/user-attachments/assets/98fa4f75-1d8e-4ba8-9d9a-86319d775c4d" />
+
+- i downloaded and verified, its matching.
+- Now again modify and check the checksum
+
