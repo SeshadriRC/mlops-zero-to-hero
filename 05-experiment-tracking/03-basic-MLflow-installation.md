@@ -2,7 +2,7 @@ Please refer to the below documentation for this lecture.
 
 https://mlflow.org/docs/2.4.2/quickstart.html#install-mlflow
 
-
+```bash
 $ mkdir mlflow-basic-install
 
 $ cd mlflow-basic-install
@@ -12,7 +12,7 @@ $ python3 -m venv .venv
 $ source .venv/bin/activate
 
 $ python3 -m pip install mlflow
-
+```
 
  What it does:
 Installs:
