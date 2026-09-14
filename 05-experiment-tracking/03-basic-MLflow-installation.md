@@ -26,8 +26,10 @@ Verify installation
 $ mlflow --version
 
 -> Start MLflow UI
-$ mlflow ui --backend-store-uri sqlite:///mlflow.db --port 7006
 
+```bash
+$ mlflow ui --backend-store-uri sqlite:///mlflow.db --port 7006
+```
 
 What this command does :
 
