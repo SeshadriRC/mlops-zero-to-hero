@@ -14,6 +14,7 @@ kubectl get pods -n cert-manager
 ```
 kubectl create namespace kserve
 
+# Always before installing the controller, we need to install CRD's. not only kserve, same for istio, argocds etc.,
 helm install kserve-crd oci://ghcr.io/kserve/charts/kserve-crd \
   --version v0.16.0 \
   -n kserve \
