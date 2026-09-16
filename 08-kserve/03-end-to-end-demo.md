@@ -2,7 +2,7 @@
 
 ### Install Cert Manager
 
-```
+```bash
 kubectl apply -f https://github.com/cert-manager/cert-manager/releases/latest/download/cert-manager.yaml
 
 # Pods should be in running state
