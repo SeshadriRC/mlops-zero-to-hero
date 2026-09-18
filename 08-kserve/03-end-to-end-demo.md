@@ -16,19 +16,18 @@ kubectl create namespace kserve
 
 # Always before installing the controller, we need to install CRD's. not only kserve, same for istio, argocds etc.,
 helm install kserve-crd oci://ghcr.io/kserve/charts/kserve-crd \
-  --version v0.16.0 \
-  -n kserve \
-  --wait
+  --version v0.20.0 \
+  --namespace $NAMESPACE \
+  --create-namespace
 ```
 
 ### Install KServe controller
 
 ```
-helm install kserve oci://ghcr.io/kserve/charts/kserve \
-  --version v0.16.0 \
-  -n kserve \
-  --set kserve.controller.deploymentMode=RawDeployment \
-  --wait
+helm install kserve oci://ghcr.io/kserve/charts/kserve-resources \
+  --version v0.20.0 \
+  --set kserve.controller.deploymentMode=Standard \
+  --namespace $NAMESPACE
 ```
 
 ### Deploy the sklearn iris model
