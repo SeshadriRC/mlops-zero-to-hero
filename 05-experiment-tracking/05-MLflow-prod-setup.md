@@ -2,6 +2,9 @@ Please refer to the below document for the next lecture
 
 https://community-charts.github.io/docs/charts/mlflow/postgresql-backend-installation
 
+<img width="4000" height="1800" alt="IMG_20260914_162037" src="https://github.com/user-attachments/assets/cee2628d-bcf5-4ff2-a1cc-30e874f50d70" />
+
+
 ## setup postgress db
 
 ```bash
