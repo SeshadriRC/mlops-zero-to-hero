@@ -107,3 +107,20 @@ The recommended learning approach is to study one component at a time—starting
 Kubeflow requires Kubernetes because its pipelines and ML tasks run as containers/pods in a Kubernetes cluster. For local setup, the text recommends using Kind with Docker Desktop to create a Kubernetes cluster.
 
 ---
+
+This section explains how to set up Kubeflow Pipelines locally:
+
+1. Install Docker Desktop.
+2. Install Kind, which creates a local Kubernetes cluster.
+3. Create a Kind cluster (named for the Kubeflow Pipelines demo) and confirm it is available with `kubectl get nodes`.
+4. Follow Kubeflow’s official installation instructions to deploy Kubeflow Pipelines into the cluster.
+
+Kubeflow Pipelines works by converting a Python ML workflow into a YAML configuration using the `kfp` Python package. Kubernetes then runs each pipeline stage—such as loading data, training a model, and evaluating it—as separate containers/pods.
+
+The installation includes Kubernetes custom resource definitions and several Kubeflow-related pods. Internally, Kubeflow Pipelines uses Argo Workflows to coordinate those jobs.
+
+If the standard installation fails on certain Windows or macOS systems, the documentation provides an alternative platform-independent installation command.
+
+Finally, port forwarding exposes the ML Pipeline UI locally, allowing access to the Kubeflow Pipelines dashboard in a browser.
+
+---
