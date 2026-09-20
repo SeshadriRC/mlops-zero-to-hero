@@ -88,3 +88,21 @@ For your **DevOps → MLOps** learning:
 
 Available next action: Create a downloadable PDF file here in this chat containing the finalized decisions and immediate actions above
 
+---
+
+Kubeflow is presented as a more comprehensive, Kubernetes-based MLOps platform made up of several components:
+
+- Kubeflow Pipelines: data loading, training, evaluation, and workflow automation
+- Notebooks: interactive development and feature engineering
+- Katib: hyperparameter tuning
+- Training Operator: model training
+- KServe: model deployment and serving
+- Model Registry: storing and managing models
+- Dashboard: a single interface for Kubeflow components
+- Prometheus/Grafana integration: monitoring deployed models
+
+The recommended learning approach is to study one component at a time—starting with Kubeflow Pipelines—rather than trying to learn all of MLOps or Kubeflow at once. Kubeflow components can be installed independently, so a company can choose only what it needs.
+
+Kubeflow requires Kubernetes because its pipelines and ML tasks run as containers/pods in a Kubernetes cluster. For local setup, the text recommends using Kind with Docker Desktop to create a Kubernetes cluster.
+
+---
