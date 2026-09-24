@@ -19,7 +19,8 @@ mine - https://gist.github.com/SeshadriRC/b3b0d0f50c69e087ba81197d18c26c40
 * An important component is **Kubeflow Pipelines**, which is used to create and automate ML workflows.
 * The video covers installation, a Hello World pipeline, and a real-world ML pipeline example. 
 
-<img width="4000" height="1800" alt="IMG_20260920_220033" src="https://github.com/user-attachments/assets/82f30853-c864-490c-94d4-5d4dfa022bd2" />
+<img width="4000" height="1800" alt="IMG_20260920_220033" src="https://github.com/user-attachments/assets/c676db1a-77cc-4efc-873d-4a24eaa7fd6d" />
+
 
 ### 2. Software Development Lifecycle vs ML Lifecycle
 
