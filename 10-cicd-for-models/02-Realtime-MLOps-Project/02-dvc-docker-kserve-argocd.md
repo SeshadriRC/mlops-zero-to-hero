@@ -4,4 +4,4 @@ https://github.com/iam-veeramalla/Realtime-MLOps-Project/
 
 https://github.com/SeshadriRC/Realtime-MLOps-Project
 
-Look at `main` and `cicd` branches in the repo.
+Look at `main` and `cicd` branches in the repo. In sesha repo, we need to push the `cicd` branch, will do it after.
